@@ -1,6 +1,6 @@
-import 
+from original_list import original
+
 def Tkinter_list_of_colors(original):
- 
   v1 = ""
   v2=[]
   list_of_colors=[] #final version
@@ -18,6 +18,9 @@ def Tkinter_list_of_colors(original):
           if etem !="\n":
               original+=etem
       list_of_colors.append(original)
+  return list_of_colors
+
+
 
 
 
